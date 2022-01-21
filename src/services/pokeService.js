@@ -14,10 +14,13 @@ class PokeService {
     }
 
     _transformCharacter = (res) => {
+        // return res.data;
         return {
             id: res.data.id,
             name: res.data.name,
-            imageUrl: res.data.sprites.versions['generation-v']['black-white'].front_shiny,
+            // imageUrl: res.data.sprites.front_shiny,
+            imageUrl: res.data.sprites.other.home.front_shiny,
+            // imageUrl: res.data.sprites.versions['generation-v']['black-white'].animated.front_shiny,
             moves: res.data.moves.length,
             height: res.data.height,
             attack: res.data.stats[1].base_stat
