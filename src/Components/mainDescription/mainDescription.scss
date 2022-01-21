@@ -1,0 +1,40 @@
+@font-face {
+  src: url("../../fonts/Raleway-Bold.ttf");
+  font-family: 'RalewayBold';
+}
+
+.main-description {
+  width: 484px;
+  height: 500px;
+  color: #A0A0A0;
+  position: relative;
+  background-color: black;
+  padding: 44px 44px 16px 44px;
+  box-sizing: border-box;
+
+  .main-title {
+    font-family: "RalewayBold", sans-serif;
+    font-size: 48px;
+    position: relative;
+    z-index: 10;
+  }
+
+  .main-image {
+    width: 396px;
+    position: absolute;
+    left: 44px;
+    top: 44px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .main-characteristics {
+    margin-top: 285px;
+    position: relative;
+    z-index: 10;
+    font-size: 17px;
+    line-height: 150%;
+  }
+}

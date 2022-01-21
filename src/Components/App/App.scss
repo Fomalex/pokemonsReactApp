@@ -1,0 +1,14 @@
+.app {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 100px 20px;
+    color: white;
+    font-family: 'RalewayMedium', sans-serif;
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 54px;
+    }
+}
+

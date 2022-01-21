@@ -1,0 +1,38 @@
+@font-face {
+  src: url("../../fonts/Raleway-SemiBold.ttf");
+  font-family: 'RalewaySemiBold';
+}
+
+@font-face {
+  src: url("../../fonts/Raleway-Medium.ttf");
+  font-family: 'RalewayMedium';
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+
+  .header-btn {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    line-height: 112.68%;
+    padding: 7px;
+    border-radius: 0;
+    font-size: 12px;
+    font-family: "RalewayMedium", sans-serif;
+
+    &:hover {
+      color: rgba(255, 255, 255, 0.8);
+      border-color: rgba(255, 255, 255, 0.8);
+    }
+  }
+
+  .header-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "RalewaySemiBold", sans-serif;
+    width: 148px;
+  }
+}

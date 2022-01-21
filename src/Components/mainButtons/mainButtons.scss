@@ -1,0 +1,16 @@
+.main-btns {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 484px;
+  .main-btn {
+    margin: 5px 6px 5px 0;
+    background: #1986EC;
+    border-radius: 44px;
+    line-height: 100%;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "RalewayMedium", sans-serif;
+    text-transform: lowercase;
+  }
+}
